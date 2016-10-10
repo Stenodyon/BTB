@@ -18,10 +18,10 @@ public:
     ~GameScene();
 
     // computes circles' positions, and update the SceneElement chain
-    void update(const sf::Time&);
+    void update(const sf::Time&) override;
 
     // display the game
-    void show(const sf::View&); // /!\ To do : make the parameter usefull
+    void show(const sf::View&) override; // TODO : make the parameter usefull
 
 private:
     // remove useless elements

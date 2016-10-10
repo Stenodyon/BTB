@@ -22,17 +22,3 @@ bool InterfaceElement::isVisible() const
 {
     return visible;
 }
-
-void InterfaceElement::update()
-{
-
-}
-
-void InterfaceElement::show(const sf::View& view)
-{
-
-}
-
-
-
-

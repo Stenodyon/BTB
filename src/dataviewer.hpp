@@ -13,7 +13,8 @@ class DataViewer : public sf::Text, public InterfaceElement
 {
 public :
   DataViewer(sf::RenderWindow* window);
-  void show(const sf::View& sf_view);
+  void update(const sf::Time&) override {}
+  void show(const sf::View& sf_view) override;
   void setTime(const sf::Time& time);
   void setScore(int score);
 private :

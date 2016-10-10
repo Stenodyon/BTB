@@ -17,10 +17,10 @@ public :
   //THESE TWO FUNCTIONS HAVE TO BE REIMPLEMENTED.
 
   // first update the element
-  virtual void update();
+  virtual void update(const sf::Time&) = 0;
 
   // and then show it
-  virtual void show(const sf::View&);
+  virtual void show(const sf::View&) = 0;
 
 private :
   bool active;
