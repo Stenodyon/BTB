@@ -4,9 +4,10 @@
 #ifndef VIEW_HPP
 #define VIEW_HPP
 
-#include "gamescene.hpp"
-#include "dataviewer.hpp"
 #include <vector>
+
+#include "dataviewer.hpp"
+#include "gamescene.hpp"
 
 class View
 {

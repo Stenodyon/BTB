@@ -1,15 +1,15 @@
 #ifndef MAP_READER
 #define MAP_READER
 
-#include <vector>
-#include <stdexcept>
-#include "sceneelementdata.hpp"
-#include "scenecircledata.hpp"
-#include "mapdata.hpp"
 #include <algorithm>
-
-
+#include <vector>
 #include <SFML/System.hpp>
+#include <stdexcept>
+
+#include "mapdata.hpp"
+#include "scenecircledata.hpp"
+#include "sceneelementdata.hpp"
+
 
 class MapReader
 {

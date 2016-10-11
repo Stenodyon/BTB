@@ -1,8 +1,10 @@
-/*** This file contains util functions which can be used everwhere in the project ***/
-#include <string>
-#include <sstream>
+/*** This file contains util functions which can be used everwhere in the
+ * project ***/
+
 #include <cmath>
 #include <SFML/Graphics.hpp>
+#include <sstream>
+#include <string>
 
 // converts hexadecimal string to sf::Color
 sf::Color parseColor(const std::string& hexString);

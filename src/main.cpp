@@ -3,12 +3,12 @@
  * BTB is under the GNU GENERAL PUBLIC LICENSE version 2.
  * ***/
 
+#include "controller.hpp"
 #include "interface.hpp"
 #include "json.hpp"
 #include "mapdata.hpp"
-#include "scenecircledata.hpp"
 #include "mapreader.hpp"
-#include "controller.hpp"
+#include "scenecircledata.hpp"
 
 using namespace std;
 

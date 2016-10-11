@@ -4,12 +4,13 @@
 #ifndef GAMESCENE_HPP
 #define GAMESCENE_HPP
 
-#include <vector>
-#include "interface.hpp"
-#include "sceneelement.hpp"
-#include "scenecircle.hpp"
-#include "mapreader.hpp"
 #include <list>
+#include <vector>
+
+#include "interface.hpp"
+#include "mapreader.hpp"
+#include "scenecircle.hpp"
+#include "sceneelement.hpp"
 
 class GameScene : public InterfaceElement
 {

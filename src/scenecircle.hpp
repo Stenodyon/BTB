@@ -5,8 +5,8 @@
 #ifndef SCENECIRCLE_HPP
 #define SCENECIRCLE_HPP
 
-#include "sceneelement.hpp"
 #include "scenecircledata.hpp"
+#include "sceneelement.hpp"
 #include "utils.hpp"
 
 class SceneCircle : public SceneElement

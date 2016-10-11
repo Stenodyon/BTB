@@ -2,9 +2,10 @@
 #define CONTROLLER
 
 #include <SFML/Window.hpp>
-#include "view.hpp"
-#include "mapreader.hpp"
 #include <string>
+
+#include "mapreader.hpp"
+#include "view.hpp"
 
 
 class Controller

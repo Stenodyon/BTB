@@ -2,15 +2,16 @@
 #ifndef MAP_DATA
 #define MAP_DATA
 
-#include "json.hpp"
-#include "utils.hpp"
-#include <vector>
-#include <string>
 #include <fstream>
-#include <sstream>
 #include <iostream>
 #include <SFML/Audio.hpp>
 #include <SFML/System.hpp>
+#include <sstream>
+#include <string>
+#include <vector>
+
+#include "json.hpp"
+#include "utils.hpp"
 
 using json = nlohmann::json;
 

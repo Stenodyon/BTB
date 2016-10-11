@@ -1,10 +1,12 @@
 #ifndef TIME_VIEWER
 #define TIME_VIEWER
-#include <SFML/Window.hpp>
+
 #include <SFML/System.hpp>
-#include "interface.hpp"
-#include <string>
+#include <SFML/Window.hpp>
 #include <sstream>
+#include <string>
+
+#include "interface.hpp"
 
 std::string timeToString(sf::Time time);
 std::string scoreToString(int score);
